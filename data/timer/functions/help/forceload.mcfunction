@@ -1,0 +1,1 @@
+tellraw @a [{"text":"<Chunkloading>","color":"light_purple"},{"text":" Chunk ","color":"yellow"},{"text":"239, 167","color":"aqua"},{"text":" in ","color":"yellow"},{"text":"minecraft:overworld","color":"green"},{"text":":","color":"yellow"},{"text":" Solid State Storage Allocation","color":"aqua"}]

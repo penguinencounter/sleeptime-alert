@@ -1,0 +1,2 @@
+tellraw @a [{"text":"<Scoreboard Allocation>","color":"yellow"},{"text":" math130","color":"red"},{"text":":","color":"reset"},{"text":" Math Libraries","color":"aqua"}]
+tellraw @a [{"text":"<Scoreboard Allocation>","color":"yellow"},{"text":" ba_timer","color":"red"},{"text":":","color":"reset"},{"text":" Timer & Weather Storage","color":"aqua"}]
