@@ -16,9 +16,9 @@ scoreboard players set *60 math130 60
 scoreboard players set *24000 math130 24000
 
 # In clear weather
-scoreboard players set clear_sleep math130 12542
+scoreboard players set clear_sleep math130 12544
 # In rainy weather
-scoreboard players set rain_sleep math130 12010
+scoreboard players set rain_sleep math130 12014
 # In thunderstorm (not applicable)
 
 scoreboard objectives add ba_timer dummy "bedtime alert: time calculations"
@@ -37,6 +37,8 @@ scoreboard players reset sleep_m ba_timer
 scoreboard players reset sleep_s ba_timer
 # Total ticks till player can sleep
 scoreboard players reset sleep_t ba_timer
+# Total sconds till player can sleep
+scoreboard players reset sleep_ts ba_timer
 
 # Effective in-game days (ticks the game has run)
 scoreboard players reset eff_days ba_timer
