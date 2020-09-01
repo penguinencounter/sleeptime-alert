@@ -24,24 +24,24 @@ scoreboard players set rain_sleep math130 12014
 scoreboard objectives add ba_timer dummy "bedtime alert: time calculations"
 
 tellraw @a [{"text":"<50%>","color":"#FF5500"},{"text":" Cleaning scoreboards...","color":"aqua"}]
-scoreboard players reset daytime ba_timer
-scoreboard players reset gametime ba_timer
-scoreboard players reset day ba_timer
+scoreboard players set daytime ba_timer 0
+scoreboard players set gametime ba_timer 0
+scoreboard players set day ba_timer 0
 
 # Seconds this day (according to ticks)
-scoreboard players reset total_s ba_timer
+scoreboard players set total_s ba_timer 0
 
 # Minutes till player can sleep
-scoreboard players reset sleep_m ba_timer
+scoreboard players set sleep_m ba_timer 0
 # Seconds till player can sleep
-scoreboard players reset sleep_s ba_timer
+scoreboard players set sleep_s ba_timer 0
 # Total ticks till player can sleep
-scoreboard players reset sleep_t ba_timer
+scoreboard players set sleep_t ba_timer 0
 # Total sconds till player can sleep
-scoreboard players reset sleep_ts ba_timer
+scoreboard players set sleep_ts ba_timer 0
 
 # Effective in-game days (ticks the game has run)
-scoreboard players reset eff_days ba_timer
+scoreboard players set eff_days ba_timer 0
 
 tellraw @a [{"text":"<75%>","color":"gold"},{"text":" Physical Data Storage...","color":"aqua"}]
 
